@@ -1,0 +1,24 @@
+:root {
+  --background-image-dt: url("/headerbgs/desktop/bg-pattern-header.svg");
+  --background-image-tablet: url("/headerbgs/tablet/bg-pattern-header.svg");
+  --background-image-mobile: url("/headerbgs/mobile/bg-pattern-header.svg");
+  --background: #f4f6f8;
+  --secondary-background: #ffffff;
+  --text-primary: #6e8098;
+  --input-text: #19202d;
+  --text-body: #6e8098;
+  --text-header: #19202d;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+[data-theme="dark"] {
+  --background: #121721;
+  --secondary-background: #19202d;
+  --input-text: #fff;
+  --text-header: #fff;
+  --text-body: #9daec2;
+}
